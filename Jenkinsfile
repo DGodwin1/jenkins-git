@@ -9,6 +9,7 @@ pipeline {
                     ls -lah
                 '''
                 sh 'echo "here is another command"'
+                sh 'echo "Howdy here is more information"'
             }
         }
     }
